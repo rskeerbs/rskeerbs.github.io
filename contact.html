@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-
-    <title>Romi Keerbs' Portfolio Pages</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-</head>
-
-<body>
-    
-        <header>
-            <div class="name">Romi Keerbs</h1></class> <div class="nav"><a href="...">  About Me  </a><a href="...">  Contact  </a><a href="portfolio.html">  Portfolio  </a></class>
-            </header>
-
-         <div class="wrapper">
+    <head>
+        <meta charset="UTF-8">
+        <title>Romi Keerbs' Portfolio Pages</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      </head>
+      
+      <body>
+      
+        <header id="page-head">
+          <div class="container">
+            <a href="index.html" id="name">Romi S. Keerbs</a>
+            <nav>
+              <a href="index.html">About Me</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="...">Contact</a>
+            </nav>
+          </div>
+        </header>
+      
+        <div id="main-container" class="container">
+          <section class="main-section">
+            <h1>Contact Me</h1>
+      
+            <form action="/action_page.php">
+              <label for="name">Your Name</label>
+              <input type="text" id="your-name" name="your-name" placeholder="John Smith">
+          
+              <label for="lname">Your Email Address</label>
+              <input type="text" id="email" name="email" placeholder="myemail@mysite.com">
+          
+              <label for="message">Your Message For Me</label>
+              <input type="text" id="message" name="message" placeholder="Type your message here">
+              
             
-        <section id="content">
-            <div>
-                <form action="/action_page.php">
-                  <label for="name">Your Name</label>
-                  <input type="text" id="name" name="name" placeholder="John Smith">
-              
-                  <label for="lname">Last Name</label>
-                  <input type="text" id="email" name="email" placeholder="myemail@mysite.com">
-              
-                  <label for="message">Message</label>
-                  <input type="text" id="message" name="message" placeholder="Type your message here">
-                
-                  <input type="submit" value="Submit">
-                </form>
-              </div></section>
+              <input type="submit" value="Submit">
+            </form>
+      
+          </section>
+      
         </div>
-        <div class="push"></div>
-    <footer class="footer">Copyright © 2020 Romi S. Keerbs</footer>
-        
-
-</body>
+      
+        <footer>
+          <div class="container">
+            Copyright &copy; 2020 Romi S. Keerbs
+          </div>
+        </footer>
+      </body>
+      
+      </html>
+      
