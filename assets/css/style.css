@@ -7,9 +7,9 @@ body {
 }
 
 .container {
+  min-width: 960px;
   max-width: 960px;
   margin: 0 auto;
-  position: center;
   }
 
 
@@ -87,13 +87,11 @@ footer {
 }
 
 #main-container {
-  padding-top: 130px;
   position: center;
   width: 960px;
 }
 
 .main-section {
-  float: left;
   max-width: 960px;
   background: #ffffff;
   padding: 30px;
@@ -124,3 +122,34 @@ input[type=submit]:hover {
   background-color: #777777;
 }
 
+.project1 h3, .project2 h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 200px;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-radius: 5px;
+}
+
+.project1 {
+  position: relative;
+  float: left;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.project2 {
+  position: relative;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.project1 img, .project2 img {
+  border: 0 none;
+  opacity: 0.8;
+  }
